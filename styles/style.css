@@ -11,7 +11,8 @@ body {
   background-color: #292d37;
   color: #f8f8fa;
   max-width: 200;
-  margin: 100px;
+  /*margin: 100px;*/
+  margin: 10px;
   font-family: 'Verdana';
 }
 
