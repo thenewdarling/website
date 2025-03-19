@@ -22,10 +22,6 @@ body {
   font-size: 12pt;
 }
 
-p {
-  max-width: 1333px;
-}
-
 h1 {
   color: #f8f8fa;
   font-size: 3rem;
@@ -36,12 +32,14 @@ img {
   max-width: 100%;
   height: auto;
   width: auto\9;
+  border-radius: 10px;
 }
 
 a {
   color: #52a57a;
 }
 
+/* NAV BAR */
 .navbar ul {
   border-radius: 25px;
   list-style-type: none;
@@ -66,6 +64,7 @@ a {
 .navbar li {
   float: left;
 }
+/* END NAV BAR */
 
 /* table cells */
 th {
@@ -77,14 +76,13 @@ td {
   text-align: left;
   max-width: 900px;
 }
+/* end table cells */
 
+/* CAROUSEL */
 .bookcoversmall {
   max-width: 400px;
 }
 
-.bookcoversmall img {
-  border-radius: 10px;
-}
 
 /*get bigger on hover*/
 .bookcoversmall img:hover {
@@ -96,28 +94,21 @@ td {
   margin-left: auto;
   margin-right: auto;
 }
+/* END CAROUSEL */
 
+/* book summary Center the entire page on a book summary (currently Witches 1 Only) */
 .booksummary {
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
 }
+/* end book summary */
 
-.about_me img {
-  /*border-radius: 50%;*/
-  border-radius: 10px;
-}
-
+/*max out the size of a book cover*/
 .bookcover img {
   max-width: 400px;
   max-height: 800px;
-  border-radius: 10px;
 }
-
-.about_me_table {
-  padding-top: 50px;
-}
-
 
 
 /* Youtube Embed*/
@@ -144,3 +135,4 @@ td {
     padding-bottom: 315px !important;
   }
 }
+/* End Youtube Embed*/
