@@ -1,0 +1,94 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+/*
+@font-face {
+  font-family: 'Verdana';
+  src: url('/fonts/EBGaramond-Regular.woff2');
+}
+*/
+body {
+  background-color: #292d37;
+  color: #f8f8fa;
+  font-family: 'Verdana';
+  max-width: 200;
+  margin: 100px;
+}
+
+p {
+  max-width: 1333px;
+}
+
+h1 {
+  color: #f8f8fa;
+  font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+a {
+  color: #52a57a;
+}
+
+.navbar ul {
+  border-radius: 25px;
+  list-style-type: none;
+  background-color: #f8f8fa;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #C8DBE1;
+}
+
+.navbar li {
+  float: left;
+}
+
+/* table cells */
+th {
+  padding-bottom: 10px;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  max-width: 900px;
+}
+
+.tableimage {
+  min-width: 100px;
+}
+
+.about_me img {
+  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.bookcover img {
+  max-width: 600px;
+  max-height: 800px;
+}
+
+.about_me_table {
+  padding-top: 50px;
+}
+
+.skinnycolumn {
+  max-width: 300px;
+}
