@@ -7,13 +7,19 @@
   src: url('/fonts/DMSerifText-Regular.woff2');
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Thin.woff2');
+}
+
 body {
   background-color: #292d37;
   color: #f8f8fa;
   max-width: 800px;
   /*margin: 100px;*/
   margin: 10px;
-  font-family: 'Verdana';
+  font-family: 'Montserrat';
+  font-size: 12pt;
 }
 
 p {
