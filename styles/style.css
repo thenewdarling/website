@@ -10,7 +10,7 @@
 body {
   background-color: #292d37;
   color: #f8f8fa;
-  max-width: 200;
+  max-width: 800px;
   /*margin: 100px;*/
   margin: 10px;
   font-family: 'Verdana';
@@ -100,22 +100,16 @@ td {
 .about_me img {
   /*border-radius: 50%;*/
   border-radius: 10px;
-  max-width: 400px;
-  max-height: 400px;
 }
 
 .bookcover img {
-  max-width: 600px;
+  max-width: 400px;
   max-height: 800px;
   border-radius: 10px;
 }
 
 .about_me_table {
   padding-top: 50px;
-}
-
-.skinnycolumn {
-  max-width: 300px;
 }
 
 
