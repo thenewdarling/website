@@ -31,22 +31,26 @@ img {
   border-radius: 10px;
 }
 
-a {
+a.red:link {
   color: #e81414;
+}
+
+a {
+  color: #f8f8fa;
 }
 
 /* NAV BAR */
 .navbar ul {
   border-radius: 25px;
   list-style-type: none;
-  background-color: #f8f8fa;
+  background-color: #6c0e0e;
   padding: 0px;
   margin: 0px;
   overflow: hidden;
 }
 
 .navbar a {
-  font-weight: bold;
+  font-weight: bolder;
   text-decoration: none;
   padding: 15px;
   display: block;
@@ -54,7 +58,7 @@ a {
 }
 
 .navbar a:hover {
-  background-color: #C8DBE1;
+  background-color: #ba1818;
 }
 
 .navbar li {
