@@ -91,3 +91,7 @@ td {
   max-width: 400px;
   max-height: 800px;
 }
+
+.no-bullets {
+  list-style-type: none;
+}
