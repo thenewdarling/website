@@ -135,3 +135,14 @@ td {
   }
 }
 /* End Youtube Embed*/
+
+
+/* List of formats available on Witches 1 */
+.no-bullets {
+  list-style-type: none;
+}
+
+.padding {
+  padding-bottom: 5px;
+}
+/* End list of formats available on Witches 1 */
